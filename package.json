@@ -1,14 +1,14 @@
 {
-  "name": "movie-finder",
+    "homepage": "https://Jamia2018.github.io/movie-finder/",
   "private": true,
   "version": "0.0.0",
   "type": "module",
   "scripts": {
     "dev": "vite",
-      "homepage": "https://Jamia2018.github.io/movie-finder/",
     "build": "vite build",
     "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "prevdeploy": "gh-page -d dist"
   },
   "dependencies": {
     "axios": "^1.6.0",

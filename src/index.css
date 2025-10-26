@@ -1,0 +1,59 @@
+/* Simple and clean styles for Movie Fight App */
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f8f9fa;
+}
+
+.container-fluid {
+  padding: 20px;
+}
+
+/* Winner and Loser styles for comparison */
+.winner {
+  background-color: #d4edda !important; /* Light green */
+  border: 2px solid #28a745 !important;
+}
+
+.loser {
+  background-color: #f8d7da !important; /* Light red */
+  border: 2px solid #dc3545 !important;
+}
+
+.tie {
+  background-color: #fff3cd !important; /* Light yellow */
+  border: 2px solid #ffc107 !important;
+}
+
+/* Simple card styles */
+.card {
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  border: 1px solid #dee2e6;
+}
+
+.card-header {
+  background-color: #e9ecef;
+  border-bottom: 1px solid #dee2e6;
+}
+
+/* Search results styling */
+.card-body h6 {
+  color: #495057;
+  margin-bottom: 10px;
+}
+
+.btn-group .btn {
+  margin: 0 2px;
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+  .container-fluid {
+    padding: 10px;
+  }
+  
+  .card-body img {
+    max-height: 200px !important;
+  }
+}
